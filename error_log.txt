@@ -1,0 +1,40 @@
+[12-Feb-2021 12:08:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/u847441908/domains/uvschools.com/public_html/restapis/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/u847441908/domains/uvschools.com/public_html/restapis/index.php on line 10
+[12-Feb-2021 12:08:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/u847441908/domains/uvschools.com/public_html/restapis/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/u847441908/domains/uvschools.com/public_html/restapis/index.php on line 10
+[12-Feb-2021 12:09:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/u847441908/domains/uvschools.com/public_html/restapis/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/u847441908/domains/uvschools.com/public_html/restapis/index.php on line 10
+[12-Feb-2021 12:09:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/u847441908/domains/uvschools.com/public_html/restapis/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/u847441908/domains/uvschools.com/public_html/restapis/index.php on line 10
+[12-Feb-2021 12:09:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/u847441908/domains/uvschools.com/public_html/restapis/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/u847441908/domains/uvschools.com/public_html/restapis/index.php on line 10
+[17-Feb-2021 10:32:31 UTC] PHP Fatal error:  Allowed memory size of 5242880000 bytes exhausted (tried to allocate 1365254144 bytes) in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/StudymaterialController.php on line 96
+[17-Feb-2021 12:11:18 UTC] PHP Warning:  Uncaught ErrorException: Undefined variable: subjectwhere in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/StudymaterialController.php:106
+Stack trace:
+#0 /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/StudymaterialController.php(106): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/u84744190...', 106, Array)
+#1 [internal function]: App\Http\Controllers\API\StudymaterialController->App\Http\Controllers\API\{closure}(Object(Illuminate\Database\Query\Builder))
+#2 /home/u847441908/domains/uvschools.com/public_html/restapis/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1432): call_user_func(Object(Closure), Object(Illuminate\Database\Query\Builder))
+#3 /home/u847441908/domains/uvschools.com/public_html/restapis/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(657): Illuminate\Database\Query\Builder->whereNested(Object(Closure), 'and')
+#4 /home/u847441908 in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/StudymaterialController.php on line 106
+[17-Feb-2021 12:11:18 UTC] PHP Fatal error:  Object of class Illuminate\Database\Query\Builder could not be converted to string in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/StudymaterialController.php on line 106
+[08-Apr-2021 10:09:08 UTC] PHP Warning:  Uncaught ErrorException: Object of class stdClass could not be converted to string in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/TeacherController.php:199
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(4096, 'Object of class...', '/home/u84744190...', 199, Array)
+#1 /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/TeacherController.php(199): array_unique(Array)
+#2 /home/u847441908/domains/uvschools.com/public_html/restapis/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\API\TeacherController->get_batches(Object(Illuminate\Http\Request))
+#3 /home/u847441908/domains/uvschools.com/public_html/restapis/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('get_batches', Array)
+#4 /home/u847441908/domains/uvschools.com/public_html/restapis/vendor/laravel/framework/src/Illuminate/Ro in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/TeacherController.php on line 199
+[08-Apr-2021 10:09:08 UTC] PHP Fatal error:  Object of class stdClass could not be converted to string in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/TeacherController.php on line 199
+[20-May-2021 08:01:29 UTC] PHP Fatal error:  Class 'App\Model' not found in /home/u847441908/domains/uvschools.com/public_html/restapis/app/StudentReport.php on line 5
+[20-May-2021 08:18:25 UTC] PHP Warning:  The use statement with non-compound name 'Validator' has no effect in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/EvaluationController.php on line 13
+[20-May-2021 08:18:25 UTC] PHP Warning:  The use statement with non-compound name 'CommonHelper' has no effect in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/EvaluationController.php on line 14

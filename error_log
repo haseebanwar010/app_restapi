@@ -1,0 +1,11 @@
+[08-Jun-2021 11:22:39 UTC] PHP Warning:  Uncaught ErrorException: Object of class stdClass could not be converted to string in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/DashboardController.php:222
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(4096, 'Object of class...', '/home/u84744190...', 222, Array)
+#1 /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/DashboardController.php(222): array_unique(Array)
+#2 /home/u847441908/domains/uvschools.com/public_html/restapis/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\API\DashboardController->get_announcements(Object(Illuminate\Http\Request))
+#3 /home/u847441908/domains/uvschools.com/public_html/restapis/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('get_announcemen...', Array)
+#4 /home/u847441908/domains/uvschools.com/public_html/restapis/vendor/laravel/framewor in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/DashboardController.php on line 222
+[08-Jun-2021 11:22:39 UTC] PHP Fatal error:  Object of class stdClass could not be converted to string in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/DashboardController.php on line 222
+[24-Jun-2021 11:22:37 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\Controller' not found in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/PusherNotificationController.php on line 7
+[24-Jun-2021 11:24:26 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\Controller' not found in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/PusherNotificationController.php on line 7
+[25-Jun-2021 07:51:11 UTC] PHP Fatal error:  Class 'App\Http\Controllers\API\Controller' not found in /home/u847441908/domains/uvschools.com/public_html/restapis/app/Http/Controllers/API/PusherNotificationController.php on line 7
